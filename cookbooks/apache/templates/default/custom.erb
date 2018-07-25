@@ -16,7 +16,9 @@
         Options Indexes FollowSymLinks MultiViews
         AllowOverride None
         Order allow,deny
-        allow from allow
+        allow from all
+        Require all granted
+
      </Directory>
 
 </VirtualHost>
