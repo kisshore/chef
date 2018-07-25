@@ -1,4 +1,3 @@
 # motd
-
-TODO: Enter the cookbook description here.
+This is a motd Cookbook for testing purposes.
 
