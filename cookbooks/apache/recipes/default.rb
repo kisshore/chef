@@ -46,6 +46,7 @@ node["apache"]['sites'].each do |site_name, site_data|
 				:port => site_data["port"]
 			})
 			end
+	notifies :restart, "service[apache2]"
 	end
 
 
